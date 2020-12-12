@@ -105,3 +105,4 @@ dist
 
 # Config Stuffs
 .config/config.json
+config/config.json
