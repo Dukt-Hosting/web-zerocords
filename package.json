@@ -1,24 +1,17 @@
 {
   "name": "web-zerocords",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "node index.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dukt-Hosting/web-zerocords.git"
-  },
-  "author": "SpicyTakis",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Dukt-Hosting/web-zerocords/issues"
-  },
-  "homepage": "https://github.com/Dukt-Hosting/web-zerocords#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "express-session": "^1.17.1",
-    "node-fetch": "^2.6.1"
+    "bootstrap": "^4.6.0",
+    "next": "10.0.6",
+    "react": "17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "17.0.1"
   }
 }
