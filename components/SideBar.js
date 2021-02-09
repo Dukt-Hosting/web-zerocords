@@ -7,15 +7,15 @@ export default function SideBar(props) {
         <Container className={styles.sidenav}>
             <Row>
                 <Nav style={{justifyContent: "center", padding:"2.5%", textAlign: "center"}} defaultActiveKey={props.activekey} className="flex-column">
-                    <Container style={{justifyContent: "center", padding:"2.5%", textAlign: "center"}}>
+                    <Container style={{justifyContent: "center", padding:"2.5%", textAlign: "center", width:"100%"}}>
                         <h2>
                             ZeroCords
                         </h2>
                     </Container> {' '}<br/>
-                    <Container>
+                    <Container style={{width:"100%", textAlign:"center"}}>
                         <Button variant="primary"><Speed/> Dashboard </Button>
                     </Container> {' '}<br/>
-                    <Container>
+                    <Container style={{width:"100%", textAlign:"center"}}>
                         <Button variant="primary"><MonetizationOn/> Currency </Button>
                     </Container> {' '}<br/>
                     <Nav.Link eventKey="link-1">Link</Nav.Link>
