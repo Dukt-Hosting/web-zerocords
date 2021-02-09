@@ -13,10 +13,10 @@ export default function SideBar(props) {
                         </h2>
                     </Container> {' '}<br/>
                     <Container style={{width:"100%", textAlign:"center"}}>
-                        <Button className={styles.sideButton} style={{width:"100%", textAlign:"center"}} variant="primary"><Speed/> Dashboard </Button>
+                        <button className={styles.sideButton} style={{width:"100%", textAlign:"center"}} variant="primary"><Speed/> Dashboard </button>
                     </Container> {' '}<br/>
                     <Container style={{width:"100%", textAlign:"center"}}>
-                        <Button style={{width:"100%", textAlign:"center"}} variant="primary"><MonetizationOn/> Currency </Button>
+                        <button style={{width:"100%", textAlign:"center"}} variant="primary"><MonetizationOn/> Currency </button>
                     </Container> {' '}<br/>
                     <Nav.Link eventKey="link-1">Link</Nav.Link>
                     <Nav.Link eventKey="link-2">Link</Nav.Link>
