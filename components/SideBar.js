@@ -6,8 +6,8 @@ export default function SideBar(props) {
     return (
         <Container className={styles.sidenav}>
             <Row>
-                <Nav defaultActiveKey={props.activekey} className="flex-column">
-                    <Container style={{justifyContent: "center", padding:"2.5%"}}>
+                <Nav style={{justifyContent: "center", padding:"2.5%", textAlign: "center"}} defaultActiveKey={props.activekey} className="flex-column">
+                    <Container style={{justifyContent: "center", padding:"2.5%", textAlign: "center"}}>
                         <h2>
                             ZeroCords
                         </h2>
