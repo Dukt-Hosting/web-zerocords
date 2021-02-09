@@ -12,12 +12,8 @@ export default function SideBar(props) {
                             ZeroCords
                         </h2>
                     </Container> {' '}<br/>
-                    <Container style={{width:"100%", textAlign:"center"}}>
-                        <button className={styles.sideButton} style={{width:"100%", textAlign:"center"}} variant="primary"><Speed/> Dashboard </button>
-                    </Container> {' '}<br/>
-                    <Container style={{width:"100%", textAlign:"center"}}>
-                        <button style={{width:"100%", textAlign:"center"}} variant="primary"><MonetizationOn/> Currency </button>
-                    </Container> {' '}<br/>
+                        <button className={styles.sideButton} style={{width:"100%", textAlign:"center"}} variant="primary"><Speed/> Dashboard </button><br/>
+                        <button style={{width:"100%", textAlign:"center"}} variant="primary"><MonetizationOn/> Currency </button><br/>
                     <Nav.Link eventKey="link-1">Link</Nav.Link>
                     <Nav.Link eventKey="link-2">Link</Nav.Link>
                     <Nav.Link eventKey="disabled" disabled>
