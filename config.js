@@ -7,6 +7,6 @@ export default {
         password: process.env.DATABASE_PASS || "sudo",
         database: process.env.DATABASE_NAME || "botpog"
     },
-    discordSecret: process.env.DISCORD_SECRET || "nuM5z5YbhJFvLP6DKdeo9mtGDUH2Au1J",
+    discordSecret: process.env.DISCORD_SECRET || "",
     discordID: process.env.DISCORD_CLIENT || "752346510523629669"
-}
+} 
