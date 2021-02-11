@@ -30,7 +30,9 @@ async function handler(req, res) {
 
     let response = await fetch(`${apiEndpoint}/oauth2/token`, opts)
 
-    let token = await response.json()
+    let resjson = await response.json()
+
+    let token = resjson.access_token
 
     // get user from database then:
     req.session.set("user", {
@@ -41,7 +43,7 @@ async function handler(req, res) {
 }
 
 export default withIronSession(handler, {
-    password: ,
+    password: config.sessionKey,
     // if your localhost is served on http:// then disable the secure flag
     cookieOptions: {
         secure: process.env.NODE_ENV === "production",
